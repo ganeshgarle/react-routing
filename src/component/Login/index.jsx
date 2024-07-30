@@ -40,6 +40,7 @@ const Login = () => {
           </Alert>
         )}
         <Form.Group as={Row} className="mb-3" controlId="formPlaintextEmail">
+          <h3 className="mb-3 text-center">Login</h3>
           <Form.Label column sm="2">
             Email
           </Form.Label>

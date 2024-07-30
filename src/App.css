@@ -9,6 +9,13 @@ body {
     padding-top: 14rem;
 }
 
+.make-center{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 .teams {
   display: flex;
     align-items: center;

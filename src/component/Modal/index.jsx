@@ -18,7 +18,7 @@ function CustomModal({
           <Button variant="secondary" onClick={handleClose}>
             No
           </Button>
-          <Button variant="primary" onClick={handleAction}>
+          <Button variant="primary" onClick={() => handleAction(teamName)}>
             Yes
           </Button>
         </Modal.Footer>

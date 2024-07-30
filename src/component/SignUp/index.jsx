@@ -18,6 +18,7 @@ const Signup = () => {
 
   return (
     <Form className="signup-container">
+      <h3 className="mb-3 text-center">User Registration</h3>
       <div>
         <Form.Group as={Row} className="mb-3" controlId="formPlaintextEmail">
           <Form.Label column sm="2">
